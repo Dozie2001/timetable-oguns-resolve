@@ -37,10 +37,11 @@ const items = [
 ];
 
 export function AppSidebar() {
-  const { collapsed } = useSidebar();
+  const { state } = useSidebar();
   const location = useLocation();
   const navigate = useNavigate();
   const currentPath = location.pathname;
+  const collapsed = state === "collapsed";
 
   const isActive = (path: string) => currentPath === path;
   const isExpanded = items.some((i) => isActive(i.url));
@@ -50,7 +51,7 @@ export function AppSidebar() {
   };
 
   return (
-    <Sidebar className={`${collapsed ? "w-16" : "w-64"} bg-slate-800 text-white border-r-0`} collapsible>
+    <Sidebar className={`${collapsed ? "w-16" : "w-64"} bg-slate-800 text-white border-r-0`} collapsible="offcanvas">
       <SidebarContent className="bg-slate-800">
         {/* Logo/Header */}
         {!collapsed && (
