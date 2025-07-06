@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
@@ -32,8 +31,12 @@ const Layout = () => {
               <div className="flex items-center space-x-4">
                 <SidebarTrigger className="lg:hidden" />
                 <div className="hidden lg:flex items-center space-x-2">
-                  <div className="w-8 h-8 bg-teal-600 rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm font-bold">OOU</span>
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center p-1 shadow-sm">
+                    <img 
+                      src="https://myschoolportal.net/blog/wp-content/uploads/2024/11/olabisi-onabanjo-university-logo-transparent.png" 
+                      alt="OOU Logo" 
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                   <span className="font-semibold text-gray-800">CS Timetable</span>
                 </div>

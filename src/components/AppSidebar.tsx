@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { 
   LayoutDashboard, 
@@ -57,8 +56,12 @@ export function AppSidebar() {
         {!collapsed && (
           <div className="p-6 border-b border-slate-700">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-teal-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">OOU</span>
+              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center p-1">
+                <img 
+                  src="https://myschoolportal.net/blog/wp-content/uploads/2024/11/olabisi-onabanjo-university-logo-transparent.png" 
+                  alt="OOU Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h2 className="font-semibold text-white">CS Department</h2>

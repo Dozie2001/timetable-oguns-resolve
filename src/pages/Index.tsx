@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -28,10 +27,12 @@ const Index = () => {
         {/* Left Side - Branding */}
         <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-teal-500 to-teal-600 p-12 flex-col justify-center items-center text-white">
           <div className="text-center space-y-6">
-            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-8">
-              <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">OOU</span>
-              </div>
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-8 p-2">
+              <img 
+                src="https://myschoolportal.net/blog/wp-content/uploads/2024/11/olabisi-onabanjo-university-logo-transparent.png" 
+                alt="OOU Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <h1 className="text-4xl font-bold leading-tight">
               Department of Computer Science
@@ -50,8 +51,12 @@ const Index = () => {
           <div className="max-w-md mx-auto w-full">
             {/* Mobile Logo */}
             <div className="lg:hidden text-center mb-8">
-              <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold">OOU</span>
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 p-2 shadow-lg">
+                <img 
+                  src="https://myschoolportal.net/blog/wp-content/uploads/2024/11/olabisi-onabanjo-university-logo-transparent.png" 
+                  alt="OOU Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <h2 className="text-2xl font-bold text-gray-800">Computer Science</h2>
               <p className="text-gray-600">Timetable Management</p>
