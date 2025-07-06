@@ -124,7 +124,7 @@ const Classrooms = () => {
                     <SelectItem value="all-capacities">All Capacities</SelectItem>
                     <SelectItem value="small">Small (≤30)</SelectItem>
                     <SelectItem value="medium">Medium (31-60)</SelectItem>
-                    <SelectItem value="large">Large (>60)</SelectItem>
+                    <SelectItem value="large">Large ({'>'}60)</SelectItem>
                   </SelectContent>
                 </Select>
                 <Select defaultValue="all-features">
