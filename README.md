@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to OOU web based scheduling time table app
 
 ## Project info
 
@@ -8,11 +8,11 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+<!-- **Use Lovable**
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/43e585df-2aee-43c7-8742-44d72b5a89ce) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via Lovable will be committed automatically to this repo. -->
 
 **Use your preferred IDE**
 
@@ -62,9 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/43e585df-2aee-43c7-8742-44d72b5a89ce) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
 
